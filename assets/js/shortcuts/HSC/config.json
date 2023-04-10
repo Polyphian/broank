@@ -1,0 +1,200 @@
+{
+    "blankPixel": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAAD5Ip3+AAAAC0lEQVQIHWNgAAIAAAUAAY27m\/MAAAAASUVORK5CYII=",
+    "blackPixel": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAAD5Ip3+AAAADElEQVQIHWNgYGAAAAAEAAFkMlP+AAAAAElFTkSuQmCC",
+    "Devices": {
+        "iPhone 11 Pro Max": {
+            "mask":"XSM11PM",
+            "dir":"XSM",
+            "Dots": "11PM",
+            "Height": 2688,
+            "Width": 1242
+        },
+        "iPhone 11 Pro": {
+            "mask":"XXS11P",
+            "dir":"X",
+            "Dots": "XS",
+            "Height": 2436,
+            "Width": 1125
+        },
+        "iPhone 7 Plus": {
+            "mask":"6p",
+            "dir":"6p",
+            "Dots": "TouchID",
+            "Height": 2208,
+            "Width": 1242
+        },
+        "iPhone 8 Plus": {
+            "mask":"6p",
+            "dir":"6p",
+            "Dots": "TouchID",
+            "Height": 2208,
+            "Width": 1242
+        },
+        "iPhone 13 mini": {
+            "mask":"12M",
+            "dir":"12m",
+            "Dots": "13m",
+            "Height": 2339,
+            "Width": 1080
+        },
+        "iPhone XS Max": {
+            "mask":"XSM11PM",
+            "dir":"XSM",
+            "Dots": "XSM",
+            "Height": 2688,
+            "Width": 1242
+        },
+        "iPhone 11": {
+            "mask":"XR11",
+            "dir":"XR",
+            "Dots": "11P",
+            "Height": 1792,
+            "Width": 828
+        },
+        "iPhone 12 mini": {
+            "mask":"12M",
+            "dir":"12m",
+            "Dots": "13m",
+            "Height": 2339,
+            "Width": 1080
+        },
+        "iPhone 13": {
+            "mask":"1212P",
+            "dir":"12",
+            "Height": 2532,
+            "Dots": "13P",
+            "Width": 1170
+        },
+        "iPhone 14": {
+            "mask":"1212P",
+            "dir":"12",
+            "Height": 2532,
+            "Dots": "13P",
+            "Width": 1170
+        },
+        "iPhone 12 Pro": {
+            "mask":"1212P",
+            "dir":"12",
+            "Dots": "13P",
+            "Height": 2532,
+            "Width": 1170
+        },
+        "iPhone X": {
+            "mask":"XXS11P",
+            "dir":"X",
+            "Dots": "X",
+            "Height": 2436,
+            "Width": 1125
+        },
+        "iPhone XS": {
+            "mask":"XXS11P",
+            "dir":"X",
+            "Dots": "XS",
+            "Height": 2436,
+            "Width": 1125
+        },
+        "iPhone 12 Pro Max": {
+            "mask":"12PM",
+            "dir":"12PM",
+            "Dots": "13PM",
+            "Height": 2778,
+            "Width": 1284
+        },
+        "iPhone 7": {
+            "mask":"6",
+            "dir":"6",
+            "Dots": "TouchID",
+            "Height": 1334,
+            "Width": 750
+        },
+        "iPhone 13 Pro Max": {
+            "mask":"12PM",
+            "dir":"12PM",
+            "Dots": "13PM",
+            "Height": 2778,
+            "Width": 1284
+        },
+        "iPhone 14 Plus": {
+            "mask":"12PM",
+            "dir":"12PM",
+            "Dots": "13PM",
+            "Height": 2778,
+            "Width": 1284
+        },
+
+        "iPhone 14 Pro": {
+            "mask":"14P",
+            "dir":"14P",
+            "Dots": "14P",
+            "Height": 2556,
+            "Width": 1179
+        },
+        "iPhone 14 Pro Max": {
+            "mask":"14PM",
+            "dir":"14PM",
+            "Dots": "14PM",
+            "Height": 2796,
+            "Width": 1290
+        },
+        "Grouping": {
+            "iPhone 14 Pro": "14P",
+            "iPhone 8 Plus": "6p",
+            "iPhone 7 Plus": "6p",
+            "iPhone 14 Plus": "12PM",
+            "iPhone 14 Pro Max": "14PM",
+            "iPhone 11 Pro": "X",
+            "iPhone 11 Pro Max": "XSM",
+            "iPhone 13 mini": "12m",
+            "iPhone XS Max": "XSM",
+            "iPhone 11": "XR",
+            "iPhone 13": "12",
+            "iPhone 12 mini": "12m",
+            "iPhone 12 Pro": "12",
+            "iPhone X": "X",
+            "iPhone XS": "X",
+            "iPhone 12 Pro Max": "12PM",
+            "iPhone 7": "6",
+            "iPhone 13 Pro Max": "12PM",
+            "iPhone 13 Pro": "12",
+            "iPhone 8": "6",
+            "iPhone 12": "12",
+            "iPhone 14": "12",
+            "iPhone XR": "XR"
+        },
+        "iPhone 13 Pro": {
+            "mask":"1212P",
+            "dir":"12",
+            "Dots": "13P",
+            "Height": 2532,
+            "Width": 1170
+        },
+        "iPhone 8": {
+            "mask":"6",
+            "dir":"6",
+            "Dots": "TouchID",
+            "Height": 1334,
+            "Width": 750
+        },
+        "iPhone 12": {
+            "mask":"1212P",
+            "dir":"12",
+            "Dots": "13P",
+            "Height": 2532,
+            "Width": 1170
+        },
+        "iPhone XR": {
+            "mask":"XR11",
+            "dir":"XR",
+            "Dots": "XR",
+            "Height": 1792,
+            "Width": 828
+        }
+    },
+    "URL": {
+        "Masks":"https://github.com/Polyphian/HSC/raw/main/Masks/",
+        "Hide Notch": "HideNotch",
+        "Card Dock":"CardDock",
+        "Card":"Card"
+    },
+    "Version":"2"
+}

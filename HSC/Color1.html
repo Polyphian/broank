@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4775784721049709"
+     crossorigin="anonymous"></script>
+<script src="https://colorjs.io/dist/color.js"></script>
+<script src="https://colorjs.io/src/spaces/p3.js"></script>
+
+<meta name="theme-color" content="#f2f1f6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1c1e" media="(prefers-color-scheme: dark)"><meta name="theme-color" 
+      content="#fff" 
+      media="(prefers-color-scheme: light)">
+<meta name="theme-color" 
+      content="#000" 
+      media="(prefers-color-scheme: dark)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Broank</title>
+    <meta name="theme-color" content="#2C2C2C">
+    <meta property="og:image" content="../../assets/img/OGimageAll.png">
+    <meta name="twitter:title" content="Broank">
+    <meta name="description" content="iOS Icon Themes, Shortcuts, other mods and tips.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="website">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="../assets/img/PWAiOS.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon32.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="../assets/img/PWAiOS.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../assets/img/PWAsm.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../assets/img/PWA.png">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="manifest" href="../manifest.json">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat+Brush&amp;display=swap">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/animate.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8L9YMBLL5E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8L9YMBLL5E');
+</script>
+</head>
+
+<body style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;;">
+    <div class="d-flex justify-content-center align-items-center" id="complete" style="background: rgba(0,0,0,0.98);width: 100vw;height: 100vh;z-index: 9999;position: absolute;backdrop-filter: blur(30px);-webkit-backdrop-filter: blur(30px);padding-right: 51px;padding-left: 51px;transition: 0.5s;pointer-events: none;opacity: 0;">
+        <div id="done" style="position: absolute;top: 0;left: 0;color: #fff;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-arrow-up-circle swing animated infinite" style="font-size: 31px;color: #0066ff;">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <circle cx="12" cy="12" r="9"></circle>
+                <line x1="12" y1="8" x2="8" y2="12"></line>
+                <line x1="12" y1="8" x2="12" y2="16"></line>
+                <line x1="16" y1="12" x2="12" y2="8"></line>
+            </svg><span class="d-block">Tap Done</span></div>
+        <div class="text-center"><i class="fa fa-check-square-o" style="color: rgb(82,255,0);font-size: 57px;"></i><span class="d-block" id="completeText" style="color: rgb(255,255,255);font-weight: bold;width: 100%;opacity: 1;transition: 1s;">(Color has been selected. Return to Shortcuts app to import)<br></span></div>
+    </div><script>
+function openComplete() {
+  document.getElementById("complete").style.height = "100vh";
+    document.getElementById("complete").style.opacity = "1";
+    document.getElementById("completeText").style.opacity = "1";
+}
+</script>
+    <div class="pageTitle" style="padding-top: 5vh;padding-bottom: 0px;position: sticky;">
+        <h1 class="text-center insetH" style="margin-top: 12px;">Homescreen Creator</h1>
+    </div>
+    <section style="position: relative;padding-top: 0px;margin-top: 39px;">
+        <div class="cardA" style="position: relative;">
+            <div class="d-xl-flex justify-content-xl-center cardTop" style="position: relative;/*background: linear-gradient(black, rgb(62,62,62) 24%, rgb(167,167,167) 65%, white);*/padding-bottom: 21px;">
+                <div class="text-center" style="margin-top: 6px;"><input data-jscolor="{position:'top', onInput:'update(this)'}" id="colorInput">
+                    <div id="out" style="display: none;"></div><script>
+function update(picker) {
+    document.getElementById('out').innerHTML = [
+picker.toHEXString(),
+    ].join('\n');
+}
+
+jscolor.trigger('input'); // triggers 'onInput' on all color pickers when they are ready
+    
+    document.getElementById("copy_btn").addEventListener("click", copyCode);
+
+function copyCode() {
+    var copyText = document.getElementById("out");
+    var textArea = document.createElement("textarea");
+    textArea.value = copyText.textContent;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("Copy");
+    textArea.remove();
+    alert("Copied");
+}
+</script>
+                </div>
+            </div>
+            <div class="cardBottom">
+                <div class="d-flex justify-content-between align-items-center" style="margin-top: 0px;min-height: 28px;max-height: 50px;">
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <div>
+                                <div class="cardActionTitle"><span>Color 1/3</span></div>
+                                <div class="cardActionSubtitle"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div><a onclick="openComplete()" class="Bbtn Brounded3" id="copy_btn">COPY COLOR</a>
+<script>
+document.getElementById("copy_btn").addEventListener("click", copyCode);
+
+function copyCode() {
+    var copyText = document.getElementById("out");
+    var textArea = document.createElement("textarea");
+    textArea.value = copyText.textContent;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("Copy");
+    textArea.remove();
+}
+</script></div>
+                </div>
+                <div id="collapseGL" class="collapse" style="margin-top: 20px;margin-bottom: 11px;">
+                    <p>Join the Glance Discord channel to gain access to the beta.<br></p><a class="insetButtonC cardActionLink" href="https://discord.gg/Y5zMYsYEyB">Join Beta</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bs-init.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+    <script src="../assets/js/synapses.js"></script>
+</body>
+
+</html>
