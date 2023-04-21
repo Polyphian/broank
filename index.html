@@ -20,7 +20,6 @@
     <link rel="icon" type="image/png" sizes="192x192" href="assets/img/PWAsm.png">
     <link rel="icon" type="image/png" sizes="512x512" href="assets/img/PWA.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat+Brush&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
@@ -369,7 +368,17 @@ function closeNav() {
     <div class="pageTitle" style="padding-top: 10vh;padding-bottom: 0px;">
         <h1 class="display-1 text-center insetH" style="font-weight: bold;margin-bottom: 0px;">thank you</h1>
         <h1 class="display-1 text-center insetH" style="font-weight: bold;margin-bottom: 106px;font-size: 20.2px;">for your support</h1>
-    </div>
+    </div><script>
+      // Detect if the user is on an iOS device
+function isIOS() {
+  return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+}
+
+// Show the div element if the user is on an iOS device
+if (isIOS()) {
+  document.getElementById("iOSDiv").style.display = "block";
+}
+</script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>

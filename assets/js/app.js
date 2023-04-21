@@ -131,12 +131,3 @@ function clearLocalStorage() {
     }
   }
 
-  // Detect if the user is on an iOS device
-function isIOS() {
-  return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-}
-
-// Show the div element if the user is on an iOS device
-if (isIOS()) {
-  document.getElementById("iOSDive").style.display = "block";
-}
