@@ -1,0 +1,397 @@
+{
+  "Version": {
+    "Wetr": "1",
+    "config": 1,
+    "updateInterval": 240
+  },
+  "root": "https://broank.s3.amazonaws.com/wetr",
+  "Wallpaper Collections": {
+    "url": "https://broank.s3.amazonaws.com/wallPacks",
+    "pack type url": {
+      "weather": "https://broank.s3.amazonaws.com/wallPacks/$SOURCE$/img/$C$/$ID$.jpg",
+      "default": "https://broank.s3.amazonaws.com/wallPacks/$SOURCE$/img/$C$/$ID$.jpg",
+      "time-weather": "https://broank.s3.amazonaws.com/wallPacks/$SOURCE$/img/$TIME$/$C$/$ID$.jpg",
+      "time": "https://broank.s3.amazonaws.com/wallPacks/$SOURCE$/img/$TIME$/$ID$.jpg"
+    }
+  },
+  "Default Settings": {
+    "wallpaperSource": "Collection-Weather",
+    "wallpaperHSSource": "Off"
+  },
+  "Devices": {
+    "iPhone X": {
+      "line1": {
+        "font-size": 46,
+        "y": 2204,
+        "focusOffset": 50,
+        "max-width": 550
+      },
+      "line2": {
+        "font-size": 38,
+        "y": 2253,
+        "focusOffset": 40,
+        "max-width": 550
+      },
+      "images": "X",
+      "height": 2436,
+      "width": 1126
+    },
+    "iPhone XS": {
+      "line1": {
+        "font-size": 46,
+        "y": 2204,
+        "focusOffset": 50,
+        "max-width": 550
+      },
+      "line2": {
+        "font-size": 38,
+        "y": 2253,
+        "focusOffset": 40,
+        "max-width": 550
+      },
+      "images": "X",
+      "height": 2436,
+      "width": 1126
+    },
+    "iPhone 11 Pro": {
+      "line1": {
+        "font-size": 46,
+        "y": 2204,
+        "focusOffset": 50,
+        "max-width": 550
+      },
+      "line2": {
+        "font-size": 38,
+        "y": 2253,
+        "focusOffset": 40,
+        "max-width": 550
+      },
+      "images": "X",
+      "height": 2436,
+      "width": 1126
+    },
+    "iPhone XR": {
+      "line1": {
+        "font-size": 34,
+        "y": 1622,
+        "focusOffset": 50,
+        "max-width": 400
+      },
+      "line2": {
+        "font-size": 28,
+        "y": 1656,
+        "focusOffset": 40,
+        "max-width": 400
+      },
+      "images": "XR",
+      "height": 1792,
+      "width": 828
+    },
+    "iPhone 11": {
+      "line1": {
+        "font-size": 34,
+        "y": 1622,
+        "focusOffset": 50,
+        "max-width": 400
+      },
+      "line2": {
+        "font-size": 28,
+        "y": 1656,
+        "focusOffset": 40,
+        "max-width": 400
+      },
+      "images": "XR",
+      "height": 1792,
+      "width": 828
+    },
+    "iPhone 12": {
+      "line1": {
+        "font-size": 48,
+        "y": 2292,
+        "focusOffset": 50,
+        "max-width": 580
+      },
+      "line2": {
+        "font-size": 40,
+        "y": 2341,
+        "focusOffset": 40,
+        "max-width": 580
+      },
+      "images": "12",
+      "height": 2532,
+      "width": 1170
+    },
+    "iPhone 12 Pro": {
+      "line1": {
+        "font-size": 48,
+        "y": 2292,
+        "focusOffset": 50,
+        "max-width": 580
+      },
+      "line2": {
+        "font-size": 40,
+        "y": 2341,
+        "focusOffset": 40,
+        "max-width": 580
+      },
+      "images": "12",
+      "height": 2532,
+      "width": 1170
+    },
+    "iPhone 13": {
+      "line1": {
+        "font-size": 48,
+        "y": 2292,
+        "focusOffset": 50,
+        "max-width": 580
+      },
+      "line2": {
+        "font-size": 40,
+        "y": 2341,
+        "focusOffset": 40,
+        "max-width": 580
+      },
+      "images": "12",
+      "height": 2532,
+      "width": 1170
+    },
+    "iPhone 13 Pro": {
+      "line1": {
+        "font-size": 48,
+        "y": 2292,
+        "focusOffset": 50,
+        "max-width": 580
+      },
+      "line2": {
+        "font-size": 40,
+        "y": 2341,
+        "focusOffset": 40,
+        "max-width": 580
+      },
+      "images": "12",
+      "height": 2532,
+      "width": 1170
+    },
+    "iPhone 14": {
+      "line1": {
+        "font-size": 48,
+        "y": 2292,
+        "focusOffset": 50,
+        "max-width": 580
+      },
+      "line2": {
+        "font-size": 40,
+        "y": 2341,
+        "focusOffset": 40,
+        "max-width": 580
+      },
+      "images": "12",
+      "height": 2532,
+      "width": 1170
+    },
+    "iPhone 14 Pro": {
+      "line1": {
+        "font-size": 48,
+        "y": 2304,
+        "focusOffset": 50,
+        "max-width": 580
+      },
+      "line2": {
+        "font-size": 40,
+        "y": 2364,
+        "focusOffset": 40,
+        "max-width": 580
+      },
+      "images": "14P",
+      "height": 2556,
+      "width": 1179
+    },
+    "iPhone 14 Pro Max": {
+      "line1": {
+        "font-size": 50,
+        "y": 2524,
+        "focusOffset": 60,
+        "max-width": 640
+      },
+      "line2": {
+        "font-size": 42,
+        "y": 2581,
+        "focusOffset": 50,
+        "max-width": 640
+      },
+      "images": "14PM",
+      "height": 2796,
+      "width": 1290
+    },
+    "iPhone 12 Pro Max": {
+      "line1": {
+        "font-size": 52,
+        "y": 2507,
+        "focusOffset": 60,
+        "max-width": 620
+      },
+      "line2": {
+        "font-size": 44,
+        "y": 2559,
+        "focusOffset": 50,
+        "max-width": 620
+      },
+      "images": "12PM",
+      "height": 2778,
+      "width": 1284
+    },
+    "iPhone 13 Pro Max": {
+      "line1": {
+        "font-size": 52,
+        "y": 2507,
+        "focusOffset": 60,
+        "max-width": 620
+      },
+      "line2": {
+        "font-size": 44,
+        "y": 2559,
+        "focusOffset": 50,
+        "max-width": 620
+      },
+      "images": "12PM",
+      "height": 2778,
+      "width": 1284
+    },
+    "iPhone 14 Plus": {
+      "line1": {
+        "font-size": 52,
+        "y": 2507,
+        "focusOffset": 60,
+        "max-width": 620
+      },
+      "line2": {
+        "font-size": 44,
+        "y": 2559,
+        "focusOffset": 50,
+        "max-width": 620
+      },
+      "images": "12PM",
+      "height": 2778,
+      "width": 1284
+    }
+  },
+  "WeatherCodes": {
+    "reference": {
+      "6Condition": "Cloudy",
+      "27Condition": "Smoky",
+      "24Condition": "Fog",
+      "2Condition": "Clear Night",
+      "3Condition": "Mostly Clear",
+      "4Condition": "Partly Cloudy",
+      "5Condition": "Mostly Cloudy",
+      "11Condition": "Drizzle, Showers",
+      "13Condition": "Thunderstorms",
+      "1Condition": "Clear Day",
+      "23Condition": "Tornado",
+      "18Condition": "All Snowy Conditions",
+      "15Condition": "Freezing Rain, Mixed Snow/Hail/Sleet Mixtures",
+      "12Condition": "Rain, Heavy Rain",
+      "20Condition": "Windy, Breezy",
+      "25Condition": "Dust"
+    },
+    "en": {
+      "BLOWING SNOW": 19,
+      "BLUSTERY": 20,
+      "BREEZY": 20,
+      "CLEAR": 1,
+      "CLOUDY": 6,
+      "DRIZZLE": 11,
+      "DUST": 25,
+      "FOG": 24,
+      "FOGGY": 24,
+      "FREEZING DRIZZLE": 15,
+      "FREEZING RAIN": 15,
+      "HAZE": 26,
+      "HEAVY RAIN": 12,
+      "HURRICANE": 21,
+      "ISOLATED THUNDERSHOWERS": 13,
+      "ISOLATED THUNDERSTORMS": 13,
+      "LIGHT RAIN SHOWERS": 11,
+      "LIGHT SNOW SHOWERS": 17,
+      "LIGHT SNOW": 17,
+      "MIXED RAIN AND HAIL": 15,
+      "MIXED RAIN AND SLEET": 15,
+      "MIXED RAIN AND SNOW": 16,
+      "MIXED SNOW AND SLEET": 16,
+      "MOSTLY CLEAR": 3,
+      "MOSTLY CLOUDY": 5,
+      "MOSTLY SUNNY": 3,
+      "PARTLY CLOUDY": 4,
+      "RAIN": 12,
+      "SCATTERED SHOWERS": 11,
+      "SCATTERED SNOW SHOWERS": 17,
+      "SCATTERED THUNDERSTORMS": 14,
+      "SHOWERS": 11,
+      "SLEET": 16,
+      "SMOKE": 27,
+      "SMOKY": 27,
+      "SNOW FLURRIES": 18,
+      "SNOW SHOWERS": 18,
+      "SNOW": 18,
+      "STARRY": 2,
+      "SUNNY": 1,
+      "THUNDERSTORM": 14,
+      "THUNDERSTORMS": 14,
+      "TORNADO": 23,
+      "TROPICAL STORM": 21,
+      "WINDY": 20
+    }
+  },
+  "Lang": {
+    "weather strings": {
+      "en": {
+        "precipChance": "$perc Chance of $precip",
+        "CLEAR": "Clear",
+        "BLOWING SNOW": "Blowing Snow",
+        "BLUSTERY": "Blustery",
+        "BREEZY": "Breezy",
+        "CLOUDY": "Cloudy",
+        "DRIZZLE": "Drizzle",
+        "DUST": "Dust",
+        "FOG": "Fog",
+        "FOGGY": "Foggy",
+        "FREEZING DRIZZLE": "Freezing Drizzle",
+        "FREEZING RAIN": "Freezing Rain",
+        "HAZE": "Haze",
+        "HEAVY RAIN": "Heavy Rain",
+        "HURRICANE": "Hurricane",
+        "ISOLATED THUNDERSHOWERS": "Thundershowers",
+        "ISOLATED THUNDERSTORMS": "Thunderstorms",
+        "LIGHT RAIN SHOWERS": "Light Showers",
+        "LIGHT SNOW": "Light Snow",
+        "LIGHT SNOW SHOWERS": "Light Snow",
+        "MIXED RAIN AND HAIL": "Rain and Hail",
+        "MIXED RAIN AND SLEET": "Rain and Sleet",
+        "MIXED RAIN AND SNOW": "Rain and Snow",
+        "MIXED SNOW AND SLEET": "Snow and Sleet",
+        "MOSTLY CLEAR": "Mostly Clear",
+        "MOSTLY CLOUDY": "Mostly Cloudy",
+        "MOSTLY SUNNY": "Mostly Sunny",
+        "PARTLY CLOUDY": "Partly Cloudy",
+        "RAIN": "Rain",
+        "SCATTERED SHOWERS": "Showers",
+        "SCATTERED SNOW SHOWERS": "Snow Showers",
+        "SCATTERED THUNDERSTORMS": "Thunderstorms",
+        "SHOWERS": "Showers",
+        "SLEET": "Sleet",
+        "SMOKE": "Smoke",
+        "SMOKY": "Smoky",
+        "SNOW": "Snow",
+        "SNOW FLURRIES": "Snow Flurries",
+        "SNOW SHOWERS": "Snow Showers",
+        "STARRY": "Clear skies",
+        "SUNNY": "Clear skies",
+        "THUNDERSTORM": "Thunderstorm",
+        "THUNDERSTORMS": "Thunderstorms",
+        "TORNADO": "Tornado",
+        "TROPICAL STORM": "Tropical Storm",
+        "WINDY": "Windy"
+      }
+    }
+  }
+}
