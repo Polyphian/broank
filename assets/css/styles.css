@@ -1173,7 +1173,7 @@ body {
   border-radius: 1.2rem;
   margin: 10px 20px;
   color: currentColor;
-  z-index: 2;
+  z-index: 1;
 }
 
 @media (prefers-color-scheme: light) {
